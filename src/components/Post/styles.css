@@ -1,0 +1,51 @@
+.containerquestions{
+    margin-bottom: 20px;
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+    max-width: 90%;
+}
+h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+h2{
+    cursor: pointer;
+    font-size: 15px;
+   
+}
+p{
+    font-size: 15px;
+    color:hsl(240, 6%, 50%);
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+@media (min-width: 320px) and ( max-width:850px){
+    .containerquestions{
+        margin-bottom: 20px;
+        border-bottom: 1px solid hsl(240, 5%, 91%);
+        max-width: 90%;
+        overflow: initial;
+    }
+    h1{
+        margin-bottom: 30px;
+        font-size: 50px;
+    }
+    h2{
+        cursor: pointer;
+        font-size: 20px;
+       
+    }
+    p{
+        font-size: 18px;
+        color:hsl(240, 6%, 50%);
+    }
+    .red{
+        color: red;
+    }
+    .green{
+        color: green;
+    }
+}
